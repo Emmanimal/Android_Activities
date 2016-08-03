@@ -1,2 +1,2 @@
 # Android_Activities
-Passing Input through Activities - Practice
+Passing text input through Activities - Practice
