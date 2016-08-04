@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     public void moveNext(View v) {
         Intent intent = new Intent(this, SecondActivity.class);
         EditText editText1 = (EditText) findViewById(R.id.text1);

@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.view.View;
+
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -21,6 +23,12 @@ public class SecondActivity extends AppCompatActivity {
         String message2 = intent.getExtras().getString("message2");
         TextView textView2 = (TextView) findViewById(R.id.lastText);
         textView2.setText(message2);
+
+    }
+
+    public void moveToThird(View v) {
+        Intent intent = new Intent(this, ThirdActivity.class);
+        startActivity(intent);
 
     }
 
