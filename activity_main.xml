@@ -21,14 +21,22 @@
         android:layout_height="wrap_content"
         android:id="@+id/text1"
         android:layout_below="@id/welcomeText"
-        android:hint="Enter your name here"
+        android:hint="Enter Your First Name"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:hint="Enter Last Name"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/WelcomeButton"
-        android:layout_below="@id/text1"
+        android:layout_below="@id/text2"
         android:text="Click Here"
         android:onClick="moveNext"
         />

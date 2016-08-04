@@ -27,9 +27,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void moveNext(View v) {
         Intent intent = new Intent(this, SecondActivity.class);
-        EditText editText = (EditText) findViewById(R.id.text1);
-        String passMessage = editText.getText().toString();
+        EditText editText1 = (EditText) findViewById(R.id.text1);
+        String passMessage = editText1.getText().toString();
         intent.putExtra("message", passMessage);
+        EditText editText2 = (EditText) findViewById((R.id.text2));
+        String passMessage2 = editText2.getText().toString();
+        intent.putExtra("message2", passMessage2);
+
         startActivity(intent);
 
     }

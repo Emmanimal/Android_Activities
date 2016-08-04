@@ -15,9 +15,12 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String easyMessage = intent.getExtras().getString("message");
 
-        TextView textView = (TextView) findViewById(R.id.thirdText);
-
+        TextView textView = (TextView) findViewById(R.id.nameText);
         textView.setText(easyMessage);
+
+        String message2 = intent.getExtras().getString("message2");
+        TextView textView2 = (TextView) findViewById(R.id.lastText);
+        textView2.setText(message2);
 
     }
 
