@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Facebook_Login</string>
+    <color name="facebook">#3b5998</color>
+</resources>
